@@ -18,11 +18,15 @@
   },
   "homepage": "https://github.com/superpuper32/my-upgradeable-contract#readme",
   "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "ethers": "^6.8.0",
     "hardhat": "^2.18.2"
   },
   "dependencies": {
     "@nomiclabs/hardhat-etherscan": "^3.0.1",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0",
+    "@openzeppelin/hardhat-upgrades": "^2.3.3",
     "dotenv": "^16.3.1"
   }
 }
