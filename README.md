@@ -1,2 +1,6 @@
 # my-upgradeable-contract
 Upgradeable Vending Machine Smart Contract
+
+Proxy contract address: 0xa09178F186739bd4D835f4d201F628cA50842Faf
+
+Implementation contract address: 0xd46EBc6E4dDc3faD0118C0dee4846233cD41C147
