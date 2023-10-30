@@ -4,8 +4,8 @@ const { ethers, upgrades } = require('hardhat');
 const proxyAddress = '0xa09178F186739bd4D835f4d201F628cA50842Faf';
 
 async function main() {
-  const VendingMachineV2 = await ethers.getContractFactory('VendingMachineV2');
-  const upgraded = await upgrades.upgradeProxy(proxyAddress, VendingMachineV2);
+  const VendingMachineV3 = await ethers.getContractFactory('VendingMachineV3');
+  const upgraded = await upgrades.upgradeProxy(proxyAddress, VendingMachineV3);
 
   const implementationAddress = await upgrades.erc1967.getImplementationAddress(
     proxyAddress
