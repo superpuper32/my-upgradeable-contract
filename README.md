@@ -1,7 +1,9 @@
 # my-upgradeable-contract
 Upgradeable Vending Machine Smart Contract
-using Hardhat and 2 useful tools:
+using the transparent proxy pattern with Hardhat and 2 useful tools:
+
 [OpenZeppelin Upgradeable Package](https://docs.openzeppelin.com/contracts/4.x/upgradeable)
+
 [OpenZeppelin Hardhat Upgrades plugin](https://docs.openzeppelin.com/upgrades-plugins/1.x/)
 
 Proxy contract address: [0xa09178F186739bd4D835f4d201F628cA50842Faf](https://goerli.etherscan.io/address/0xa09178F186739bd4D835f4d201F628cA50842Faf)
